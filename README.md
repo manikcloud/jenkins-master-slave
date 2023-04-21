@@ -16,7 +16,7 @@ To create and configure a slave node in Jenkins, follow these steps:
 
 7. Configure the node: Fill in the necessary details for the slave node:
   - Description: Add a brief description of the node (optional).
-  - # of executors: Set the number of concurrent build jobs the slave node can handle.
+  - executors: Set the number of concurrent build jobs the slave node can handle.
   - Remote root directory: Specify a directory on the slave machine where Jenkins will store its files (e.g., /home/jenkins/agent).
   - Labels: Add labels to the node to help identify its purpose or capabilities (e.g., "linux", "php", etc.).
   - Usage: Choose how Jenkins should utilize this node. Select "Use this node as much as possible" to allow any jobs to run on it, or "Only build jobs with label expressions matching this node" to restrict its usage.
